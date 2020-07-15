@@ -1,0 +1,793 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h1{
+    width: 278px;
+    height: 47px;
+    display: flex;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+.Texts{
+    width: 439px;
+    height: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    width: 439px;
+    height: 27px;
+    margin-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+p{  
+    margin: 0;
+    padding: 0;
+    width: 439px;
+    height: 87px;
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px; 
+}
+
+.picturesArea{
+    width: calc(100%-500px);
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstLine{
+    width: calc(100%-500px);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.firstPerson{
+    position: relative;
+    width: 305px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.firstPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+}
+
+.firstPerson p{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.firstPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 117px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.secondPerson{
+    position: relative;
+    width: 305px;
+    height: 471px;
+    z-index: 999;
+}
+
+.secondPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.secondPerson p{
+    position: absolute;
+    top: 145px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.secondPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 200px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+
+.thirdPerson{
+    position: relative;
+    width: 305px;
+    height: 471px;
+    margin-right: 150px;
+}
+
+.thirdPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdPerson p{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.thirdPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 117px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.secondLine{
+    width: calc(100%-500px);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fourthPerson{
+    position: relative;
+    width: 305px;
+    height: auto;
+    margin-left: 150px;
+}
+
+.fourthPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+}
+
+.fourthPerson p{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.fourthPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 117px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.fifthPerson{
+    position: relative;
+    width: 305px;
+    height: 471px;
+    z-index: 999;
+}
+
+.fifthPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.fifthPerson p{
+    position: absolute;
+    top: 145px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.fifthPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 200px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+
+.sixthPerson{
+    position: relative;
+    width: 305px;
+    height: 471px;
+    margin-right: 150px;
+}
+
+.sixthPerson img{
+    margin: 0;
+    padding: 0;
+    width: 238px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixthPerson p{
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    width: 102px;
+    height: 16px;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.sixthPerson h5{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 117px;
+    height: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+@media (max-width: 576px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        outline: none;
+        text-decoration: none;
+        border: none;
+        overflow-x: hidden;
+    }
+
+    header{
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    h1{
+        width: 100%;
+        height: auto;
+        display: block;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .Texts{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h3{
+        margin: 0;
+        padding: 0;
+        width: 439px;
+        height: 27px;
+        text-align: left;
+        margin-bottom: 3px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    p{  
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 439px;
+        height: 87px;
+        margin-top: 3px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px; 
+    }
+
+    .firstLine{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-top: 70px;
+    }
+
+    .firstPerson{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        width: 156px;
+        height: auto;
+    }
+
+    .firstPerson img{
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .firstPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .firstPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .secondPerson{
+        position: absolute;
+        left: 300px;
+        top: 150px;
+        margin: 0;
+        padding: 0;
+        margin-right: 100px;
+        width: 156px;
+        height: auto;    }
+
+    .secondPerson img{
+
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .secondPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .secondPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    
+    .thirdPerson{
+        position: absolute;
+        top: 350px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        width: 156px;
+        height: auto;
+    }
+
+    .thirdPerson img{
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .thirdPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .thirdPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .secondLine{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+
+    .fourthPerson{
+        position: absolute;
+        left: 300px;
+        top: 440px;
+        margin: 0;
+        padding: 0;
+        margin-right: 100px;
+        width: 156px;
+        height: auto;    }
+
+    .fourthPerson img{
+
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .fourthPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .fourthPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+
+    .fifthPerson{
+        position: absolute;
+        top: 630px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        width: 156px;
+        height: auto;
+    }
+
+    .fifthPerson img{
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .fifthPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .fifthPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .sixthPerson{
+        position: absolute;
+        left: 300px;
+        top: 720px;
+        margin: 0;
+        padding: 0;
+        margin-right: 100px;
+        width: 156px;
+        height: auto;    }
+
+    .sixthPerson img{
+
+        margin: 0;
+        padding: 0;
+        width: 138px;
+        height: auto;
+    }
+
+    .sixthPerson p{
+        position: absolute;
+        top: 45px;
+        left: 100px;
+        margin: 0;
+        padding: 0;
+        width: 102px;
+        height: 16px;
+        text-align: left;
+        font-family: 'PT Serif', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        transform: rotate(90deg);
+    }
+
+    .sixthPerson h5{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        width: 117px;
+        height: 27px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    footer{
+        position: absolute;
+        top: 1300px;
+        left: 170px;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+        display: block;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #A9A9A9;
+    }
+}
+
+/*
+
+
+
+*/
